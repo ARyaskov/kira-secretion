@@ -1,0 +1,46 @@
+[package]
+name = "kira-secretion"
+description = "Deterministic, explainable secretion-state QC for single-cell expression data."
+version = "0.1.0"
+rust-version = "1.95"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/ARyaskov/kira-secretion"
+keywords = [
+    "bioinformatics",
+    "secretion",
+    "cell",
+    "sc-rna",
+    "oncology"
+]
+categories = [
+    "science",
+    "science::bioinformatics",
+    "science::bioinformatics::genomics",
+    "command-line-utilities"
+]
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+crc = "3"
+csv = "1.0"
+flate2 = "1.0"
+memmap2 = "0.9"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+toml = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter", "time"] }
+
+[dev-dependencies]
+tempfile = "3.10"
+
+[features]
+default = ["gz"]
+gz = []
+scalar = []
+simd = []
+avx2 = []
+neon = []

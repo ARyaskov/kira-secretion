@@ -1,0 +1,27 @@
+[[panel]]
+id = "ER_GOLGI_TRAFFICKING"
+axis = "SIA"
+description = "ER to Golgi trafficking core machinery"
+genes = ["SEC23A", "SEC24B", "SAR1A", "COPB1"]
+required = ["SEC23A", "SAR1A"]
+
+[[panel]]
+id = "EXOCYTOSIS_FUSION"
+axis = "SIA"
+description = "Vesicle fusion / exocytosis machinery"
+genes = ["STX3", "VAMP3", "SNAP23"]
+required = ["SNAP23"]
+
+[[panel]]
+id = "EXOSOME_EXPORT"
+axis = "EEB_EXPORT"
+description = "Exosome biogenesis and export routing"
+genes = ["TSG101", "PDCD6IP", "SDC1"]
+required = ["TSG101"]
+
+[[panel]]
+id = "ENDOLYSO_DEGRADATION"
+axis = "EEB_DEGRADE"
+description = "Endosome-lysosome degradative routing"
+genes = ["CTSD", "LAMP1", "LAMP2"]
+required = ["LAMP1"]
