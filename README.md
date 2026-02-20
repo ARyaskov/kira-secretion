@@ -103,4 +103,4 @@ All TSV float values are fixed `%.6f`.
 
 ## Shared cache specification
 
-- Canonical format: `CACHE_FILE.md`
+- Cache format specification: [kira-shared-sc-cache/CACHE_FILE.md](https://github.com/ARyaskov/kira-shared-sc-cache/blob/main/CACHE_FILE.md)

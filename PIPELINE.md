@@ -67,7 +67,7 @@ Failure policy:
 - cache missing: fallback to MTX/TSV
 - cache exists but invalid: hard error (no silent fallback)
 
-Validation rules follow `CACHE_FILE.md` (header/magic/version/endian/header-size/file-bytes, CRC64-ECMA, section bounds, string tables, CSC invariants).
+Cache format specification: [kira-shared-sc-cache/CACHE_FILE.md](https://github.com/ARyaskov/kira-shared-sc-cache/blob/main/CACHE_FILE.md) (header/magic/version/endian/header-size/file-bytes, CRC64-ECMA, section bounds, string tables, CSC invariants).
 
 ## Pipeline aggregator contract (`kira-organelle` ingestion)
 

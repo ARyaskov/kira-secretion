@@ -1,4 +1,3 @@
-
 use super::*;
 use crc::{CRC_64_ECMA_182, Crc};
 use std::fs;
