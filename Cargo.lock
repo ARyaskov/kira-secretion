@@ -266,6 +266,8 @@ checksum = "92ecc6618181def0457392ccd0ee51198e065e016d1d527a7ac1b6dc7c1f09d2"
 [[package]]
 name = "kira-scio"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e0c3dd9fa861099603f6c7a2c224caf5c6bb49000e64884d5dfd4cf1db25f51e"
 dependencies = [
  "flate2",
  "unicode-normalization",
@@ -273,7 +275,7 @@ dependencies = [
 
 [[package]]
 name = "kira-secretion"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "clap",
